@@ -1,0 +1,25 @@
+nav .nav-wrapper {
+    height: 64px !important;
+    min-height: 64px !important;
+    line-height: 64px !important;
+  }
+  
+  nav .brand-logo img {
+    max-height: 55px !important; 
+    height: auto !important; 
+    vertical-align: middle !important;
+  }
+  
+
+  nav .nav-wrapper ul li a {
+    line-height: 64px !important; 
+  }
+
+  nav .sidenav-trigger {
+    height: 64px !important;
+    line-height: 64px !important; 
+  }
+  
+  .sidenav {
+    margin-top: 64px !important;
+  }

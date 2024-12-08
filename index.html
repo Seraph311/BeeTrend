@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Icon Font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="materialize-css/dist/css/materialize.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="src/customStyle.css">
+
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+    <title>BeeTrend</title>
+
+</head>
+
+<body class="amber lighten-5">
+
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-wrapper amber accent-1">
+            <div class="container">
+
+                <!-- Logo -->
+                <a href="#" class="brand-logo"><img src="assets/img/BeeTrend.png" alt="BeeTrend Logo"
+                        class="responsive-img center" style="height:auto; max-width: 100%; margin-bottom: 10px;"></a>
+
+
+                <!-- Mobile Navigation -->
+                <a href="#" data-target="menuSidenav" class="sidenav-trigger hide-on-large-only left"><i
+                        class="medium material-icons black-text" style="margin-top: 5px;">menu</i></a>
+                <a href="#" data-target="shoppingCart" class="sidenav-trigger hide-on-large-only right"><i
+                        class="medium material-icons black-text" style="margin-top: 5px;">shopping_cart</i></li>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#" class="black-text">New</a></li>
+                    <li><a href="#" class="black-text">Men</a></li>
+                    <li><a href="#" class="black-text">Women</a></li>
+                    <li><a href="#"><i class="medium material-icons black-text">account_circle</i></a></li>
+                    <li><a href="#" data-target="shoppingCart" id="desktopCart"><i class="material-icons black-text">shopping_cart</i>
+                    </li></a>
+                </ul>
+
+                <!-- Menu Sidenav -->
+                <ul id="menuSidenav" class="sidenav amber lighten-5">
+                    <li><a href="#" class="black-text">New</a></li>
+                    <li><a href="#" class="black-text">Men</a></li>
+                    <li><a href="#" class="black-text">Women</a></li>
+                    <li><a href="#"><i class="medium material-icons black-text">account_circle</i></a></li>
+                </ul>
+
+                <!-- Shopping Cart Sidenav-->
+                <ul id="shoppingCart" class="sidenav amber lighten-5">
+                    <h3 class="black-text center">CART</h3>
+                </ul>
+
+
+            </div>
+
+        </div>
+    </nav>
+
+
+
+
+    <!-- Jquery -->
+    <script type="text/javascript" src="jquery/dist/jquery.min.js"></script>
+    <!-- Materialize JS-->
+    <script type="text/javascript" src="materialize-css/dist/js/materialize.min.js"></script>
+
+
+
+    <script>
+        $(document).ready(function () {
+            //Menu Sidenav init
+            $('#menuSidenav').sidenav({
+
+            });
+            // Shopping cart Sidenav init
+            $('#shoppingCart').sidenav({
+                edge: 'right'
+            })
+            // Manual trigger desktop shopping cart
+            $('#desktopCart').click(function () {
+                $('#shoppingCart').sidenav('open');
+            });
+
+
+        });
+    </script>
+
+</body>
+
+</html>
