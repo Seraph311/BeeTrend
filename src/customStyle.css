@@ -74,7 +74,7 @@ p h1 h2 h3 h4 h5 h6 {
   100% { background-position: 0% 50%; }
 }
 
-/* Border*/
+/* Border */
 .border {
   border: 1px solid black;
 }
@@ -95,7 +95,7 @@ p h1 h2 h3 h4 h5 h6 {
   border-right: 1px solid black;
 }
 
-/* Button Size*/
+/* Button Size */
 .btn-size{
   width: 150px;
   text-align: center;
