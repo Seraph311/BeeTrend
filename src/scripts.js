@@ -6,7 +6,7 @@ $(document).ready(function () {
     // Shopping cart Sidenav init
     $('#shoppingCart').sidenav({
         edge: 'right'
-    })
+    });
     // Manual trigger desktop shopping cart
     $('#desktopCart').click(function () {
         $('#shoppingCart').sidenav('open');
@@ -22,5 +22,13 @@ $(document).ready(function () {
     // Dropdown init
     $('.dropdown-trigger').dropdown({
 
+    });
+    // Material Box init
+    $('.materialboxed').materialbox({
+
+    });
+    // Login Form Modal init
+    $('.modal').modal({
+        
     });
 });

@@ -44,7 +44,8 @@
                     <li><a href="new.html" class="black-text">New</a></li>
                     <li><a href="men.html" class="black-text">Men</a></li>
                     <li><a href="women.html" class="black-text">Women</a></li>
-                    <li><a href="#"><i class="medium material-icons black-text">account_circle</i></a></li>
+                    <li><a href="#loginForm" class="modal-trigger"><i
+                                class="medium material-icons black-text">account_circle</i></a></li>
                     <li><a href="#" data-target="shoppingCart" id="desktopCart"><i
                                 class="material-icons black-text">shopping_cart</i>
                     </li></a>
@@ -52,16 +53,43 @@
 
                 <!-- Menu Sidenav -->
                 <ul id="menuSidenav" class="sidenav amber lighten-5">
+                    <img src="assets/img/BEELOGO Primary.png" alt="" class="responsive-img center"
+                        style="height: auto; width: 150px; margin: 60px;">
+                    <div class="divider"></div>
                     <li><a href="new.html" class="black-text">New</a></li>
                     <li><a href="men.html" class="black-text">Men</a></li>
                     <li><a href="women.html" class="black-text">Women</a></li>
-                    <li><a href="#"><i class="medium material-icons black-text">account_circle</i></a></li>
+                    <li><a href="#loginForm" class="modal-trigger"><i
+                                class="medium material-icons black-text">account_circle</i></a></li>
                 </ul>
 
                 <!-- Shopping Cart Sidenav-->
                 <ul id="shoppingCart" class="sidenav amber lighten-5">
                     <h3 class="black-text center">CART</h3>
+                    <div class="divider"></div>
                 </ul>
+
+                <!-- Modal Form -->
+                <div id="loginForm" class="modal">
+                    <div class="modal-content">
+                        <div class="row">
+                            <div class="input-field col s12">
+                              <input id="email" type="email" class="validate">
+                              <label for="email">Email</label>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="input-field col s12">
+                              <input id="password" type="password" class="validate">
+                              <label for="password">Password</label>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Register</a>
+                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Login</a>
+                    </div>
+                </div>
 
             </div>
 
@@ -135,7 +163,7 @@
                     <div style="height: 150px;"></div>
                 </div>
                 <div class="col s12 m6 l6">
-                    <a href="">
+                    <a href="new.html">
                         <img src="assets/img/Clothes/Frontpage/dude.jpg" alt=""
                             class="responsive-img hover-scale z-depth-2" style="margin-top: 5px;">
                     </a>
