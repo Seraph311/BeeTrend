@@ -20,6 +20,10 @@ nav .brand-logo img {
   font-weight: bold;
 }
 
+p h1 h2 h3 h4 h5 h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
 /* Hover Effect */
 .hover-scale {
   transition: transform 0.3s ease;
@@ -51,6 +55,45 @@ nav .brand-logo img {
   border-radius: 5px;
   font-size: 18px;
   font-weight: bold;
+}
+
+/* Gradient */
+.gradient {
+  background: linear-gradient(180deg, rgba(225, 247, 213, 0.925),rgba(177, 240, 141, 0.979), rgba(129, 243, 62, 0.979));
+}
+
+.animated-gradient {
+  background: linear-gradient(90deg, rgba(238, 211, 154, 0.973), rgba(241, 181, 13, 0.945));
+  background-size: 300% 300%;
+  animation: gradientShift 3s infinite; 
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Border*/
+
+.border {
+  border: 1px solid black;
+}
+
+.border-top {
+  border-top: 1px solid black;
+}
+
+.border-bottom {
+  border-bottom: 1px solid black;
+}
+
+.border-left {
+  border-left: 1px solid black;
+}
+
+.border-right {
+  border-right: 1px solid black;
 }
 
 /*
