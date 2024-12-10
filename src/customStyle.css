@@ -63,7 +63,7 @@ p h1 h2 h3 h4 h5 h6 {
 }
 
 .animated-gradient {
-  background: linear-gradient(90deg, rgba(238, 211, 154, 0.973), rgba(241, 181, 13, 0.945));
+  background: linear-gradient(90deg, rgba(238, 211, 154, 0.973), rgba(241, 181, 13, 0.945), rgba(241, 150, 13, 0.945));
   background-size: 300% 300%;
   animation: gradientShift 3s infinite; 
 }
@@ -75,7 +75,6 @@ p h1 h2 h3 h4 h5 h6 {
 }
 
 /* Border*/
-
 .border {
   border: 1px solid black;
 }

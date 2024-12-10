@@ -11,8 +11,16 @@ $(document).ready(function () {
     $('#desktopCart').click(function () {
         $('#shoppingCart').sidenav('open');
     });
+    // Filter Sidenav init
+    $('#filterSideNav').sidenav({
+        
+    });
     // Carousel init
     $('.carousel').carousel({
     
+    });
+    // Dropdown init
+    $('.dropdown-trigger').dropdown({
+
     });
 });
