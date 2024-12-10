@@ -11,4 +11,8 @@ $(document).ready(function () {
     $('#desktopCart').click(function () {
         $('#shoppingCart').sidenav('open');
     });
+    // Carousel init
+    $('.carousel').carousel({
+    
+    });
 });

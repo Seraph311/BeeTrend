@@ -1,54 +1,58 @@
+/* Fixed nav size on smaller screen */
 nav .nav-wrapper {
-    height: 64px !important;
-    min-height: 64px !important;
-    line-height: 64px !important;
-  }
-  
-  nav .brand-logo img {
-    max-height: 55px !important; 
-    height: auto !important; 
-    vertical-align: middle !important;
-  }
+  height: 64px !important;
+  min-height: 64px !important;
+  line-height: 64px !important;
+}
 
-  .font1{
-    font-family: 'Montserrat', sans-serif;
-  }
+nav .brand-logo img {
+  max-height: 55px !important;
+  height: auto !important;
+  vertical-align: middle !important;
+}
 
-  .bold-text{
-    font-weight: bold;
-  }
+/* Font */
+.font1 {
+  font-family: 'Montserrat', sans-serif;
+}
 
-  .hover-scale{
-    transition: transform 0.3s ease;
-  }
+.bold-text {
+  font-weight: bold;
+}
 
-  .hover-scale:hover{
-    transform: scale(1.1);
-  }
+/* Hover Effect */
+.hover-scale {
+  transition: transform 0.3s ease;
+}
 
-  .image-container {
-    position: relative; 
-    display: inline-block; 
-  }
+.hover-scale:hover {
+  transform: scale(1.1);
+}
 
-  .image-container img {
-    display: block; 
-    width: 100%; 
-  }
+/* Overlay Text */
+.image-container {
+  position: relative;
+  display: inline-block;
+}
 
-  .image-container .overlay-text {
-    position: absolute; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    color: white; 
-    background-color: rgba(0, 0, 0, 0.5); 
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 18px; 
-    font-weight: bold; 
-  }
-  
+.image-container img {
+  display: block;
+  width: 100%;
+}
+
+.image-container .overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 /*
   nav .nav-wrapper {
     height: 64px !important;
